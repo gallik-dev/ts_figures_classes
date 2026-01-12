@@ -70,7 +70,7 @@ export class Rectangle implements Figure {
     public height: number,
   ) {
     if (this.width <= 0 || this.height <= 0) {
-      throw new Error('All sides of a triangle must be positive numbers.');
+      throw new Error('All sides of a rectangle must be positive numbers.');
     }
 
     this.shape = 'rectangle';
